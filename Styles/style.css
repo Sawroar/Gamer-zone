@@ -115,8 +115,9 @@ nav>ul {
 .gamer-section{
     display: flex;
     align-items: center;
-    
-    gap: 50px;
+    justify-content: space-around;
+     gap: 50px;
+     padding: 200px;
 }
 .gamer-title{
     font-size:  48px;
@@ -134,13 +135,38 @@ nav>ul {
     width: 100%;
 }
 .btn-know{
-    margin-left: 100px;
+    margin-left: 298px;
+    margin-top: 53px;
+    margin-bottom: 20px;
 }
 .purpose{
     color: #534C64;
     text-align: right;
+    margin: 24px 0px;
 }
 .moto{
     color: #534C64;
     text-align: right; 
+}
+.card-text h2{
+    color: #0B0223;
+    font-size: 48px;
+    text-align: center;
+
+}
+.card-text span{
+    color: #F948B2;
+    font-size: 48px;
+}
+.card-text p{
+  color: #534C64;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 45px;
+}
+.card-container{
+display: flex;
+justify-content: space-around;
+padding: 50px;
 }
