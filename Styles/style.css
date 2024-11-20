@@ -58,12 +58,14 @@ nav>ul {
 .goat-section{
     display: flex;
     justify-content: space-around;
-    align-self: center;
+    align-items: center;
+    margin-top: 100px;
+
     
 }
-.goat-container{
+/* .goat-container{
     margin-top:140px;
-}
+} */
 .goat-title {
     color: #0B0223;
     text-transform: uppercase;
@@ -93,6 +95,7 @@ nav>ul {
     color: #FFF;
     background-color: #F948B2;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 .btn-secondary {
@@ -103,8 +106,41 @@ nav>ul {
     color: #FFF;
     background-color: #4EC5F7;
     cursor: pointer;
+    text-transform: uppercase;
 }
 .goat-img img{
     width: 100%;
     height: 500px;
+}
+.gamer-section{
+    display: flex;
+    align-items: center;
+    
+    gap: 50px;
+}
+.gamer-title{
+    font-size:  48px;
+    text-transform: uppercase;
+    color: #F948B2;
+    pad: 0px;
+    text-align: right;
+}
+.gamer-description{
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+}
+.gamer-img img{
+    width: 100%;
+}
+.btn-know{
+    margin-left: 100px;
+}
+.purpose{
+    color: #534C64;
+    text-align: right;
+}
+.moto{
+    color: #534C64;
+    text-align: right; 
 }
