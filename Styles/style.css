@@ -362,3 +362,64 @@ margin-top: 55px;
     
 
 }
+
+/* Media queary Medium Devices */
+@media screen and (max-width:576px) {
+    
+    header{
+        flex-direction: column;
+    }
+    .header-right-section{
+        flex-direction: column;
+    }
+    .goat-section{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .gamer-section{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .gamer-title{
+        text-align: center;
+    }
+    .gamer-description{
+        text-align: center;
+    }
+    .btn-know{margin-left: 102px;}
+    .card-container{
+        flex-direction: column;
+    }
+    .purpose{
+        text-align: center;
+    }
+    .moto{
+        text-align: center;
+    }
+    .hero-container{
+        flex-direction: column;
+    }
+    .career-section{
+        flex-direction: column;
+    }
+    .games-container{
+        flex-wrap: wrap;
+    }
+    .games-container-2{
+        flex-wrap: wrap;
+    }
+    .webpage-container{
+        flex-wrap: wrap;
+    }
+    .icon-container{
+        flex-wrap: wrap;
+    }
+    .policy-container{
+        flex-wrap: wrap;
+    }
+    .copyright-container{
+        flex-wrap: wrap;
+    }
+           
+    
+}
